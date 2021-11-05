@@ -1,0 +1,12 @@
+slowDown= random_range(0,3.5)
+scale = random_range(0.01,0.3)
+alpha = 1;
+image_xscale = scale;
+image_yscale = scale;
+direction = 0
+gravity = .55;
+vspeed = random_range(-6,-10);
+hspeed = random_range(-4,0);
+alarm[0]=random_range(40,45)
+image_speed=0;
+image_index = irandom_range(0,3)

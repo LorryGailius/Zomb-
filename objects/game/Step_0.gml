@@ -1,0 +1,15 @@
+if(global.killcount=game.dif0){
+game.difficulty=0;	
+}
+if(global.killcount=game.dif1){
+game.difficulty=1;	
+}
+if(global.killcount=game.dif2){
+game.difficulty=2;	
+}
+if(global.killcount=game.dif3){
+game.difficulty=3;	
+}
+if(global.killcount=game.dif4){
+game.difficulty=4;	
+}

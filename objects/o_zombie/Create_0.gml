@@ -1,0 +1,26 @@
+
+global.eq="2+2"
+global.ans=2+2
+image_speed = 0.65;
+blood=200;
+depth=0;
+alarm[1]=0;
+if(game.difficulty=0){
+sk1=floor(random_range(1,11))
+sk2=floor(random_range(1,11))}
+if(game.difficulty=1){
+sk1=floor(random_range(11,18))
+sk2=floor(random_range(11,18))}
+if(game.difficulty=2){
+sk1=floor(random_range(11,22))
+sk2=floor(random_range(11,22))}
+if(game.difficulty=3){
+sk1=floor(random_range(11,29))
+sk2=floor(random_range(11,29))}
+if(game.difficulty=4){
+sk1=floor(random_range(16,38))
+sk2=floor(random_range(16,38))}
+attacking=false;
+ans=sk1+sk2
+st=0;
+spawnkill=0;

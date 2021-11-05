@@ -1,0 +1,11 @@
+global.surface_blood = surface_create(room_width,room_height);
+global.killcount=0;   
+dif0=1;
+dif1=floor(random_range(10,16))
+dif2=floor(random_range(36,39))
+dif3=floor(random_range(54,60))
+dif4=floor(random_range(70,75))
+difficulty=0
+clear=0
+sc=0
+global.pause=0;
